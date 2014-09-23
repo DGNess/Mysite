@@ -1,5 +1,3 @@
 Mysite
-
-XJ-9
-
-My website
+======
+[HOME PAGE](http://weblab.cs.uml.edu/~sconfrey/)
