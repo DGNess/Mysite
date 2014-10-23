@@ -49,7 +49,7 @@
            (input.rowMin.value == "") || (input.rowMax.value == "") ||
            isNaN(input.colMin.value) || isNaN(input.colMax.value) ||
            isNaN(input.rowMin.value) || isNaN(input.rowMax.value)) {
-          alert("Enter valid nubers in the fields");
+          alert("Enter valid numbers in the fields provided");
           return false;
         }
 
@@ -61,7 +61,7 @@
 
         // Make sure min and max are not swaped
         if ((colMin > colMax) || (rowMin > rowMax)) {
-          alert("Min higher than max");
+          alert("Min number higher than max number");
           return false;
         }
         
