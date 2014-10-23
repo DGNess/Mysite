@@ -12,7 +12,7 @@
   <head>
     <title>Shaun Confrey's Assignments</title>   <!-- name of the site  and styling-->
     <meta charset="utf-8">
-    <link href="CSS/asm6.css" rel="stylesheet" type="text/css"> <!-- css location  -->
+    <link href="css/asm6.css" rel="stylesheet" type="text/css"> <!-- css location  -->
     <link rel="icon" type="image/png" href="icons/site16.png" sizes="16x16" />
     
     <!--
@@ -22,7 +22,7 @@
        alternatively, you can download jQuery and store it locally from
        http://jquery.com/download/
    -->
-     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="jquery-1.4.2.min.js"></script>
   </head>
   
   <body>
@@ -37,8 +37,9 @@
     </div>
     <!-- This is where the table will be placed once generated -->
     <div id="table"></div>
+  </body>
   
-    <script type="text/javascript">
+    <script>
       // This script takes input from the user 
       // and dynamically creates a multiplication table with the given values
       function makeTable() {
@@ -68,6 +69,12 @@
         var colSize = colMax - colMin;
         var rowSize = rowMax - rowMin;
 
+        // Make sure min and max are not swaped
+        if ((colSize > 400 ) || (rowSize > 400 )) {
+          alert("Intevel too large");
+          return false;
+        }
+        
         // Create arrays to put column and row numbers to be mutiplyed
         
         var colNumbers = new Array();
@@ -110,6 +117,6 @@
         $("tbody").wrap("<table id=\"table\"></table>"); // wrap everything in a <table>
         return false;
       }
+
     </script>
-  </body>
 </html>
