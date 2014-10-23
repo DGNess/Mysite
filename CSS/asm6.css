@@ -1,13 +1,13 @@
 /* 
-  File:  /~sconfrey/public_html/asm.html
-  91.461 Assignment:  Styling Your First Web Page With CSS
+  File:  /sconfrey.github.io/Mysite/CSS/asm6.css
+  91.461 Assignment:  Creating an Interactive Dynamic Table
   Shaun J. Confrey, UMass Lowell Computer Science, shaun_confrey@student.uml.edu
-  Copyright (c) 2014 by Shaun J. Confrey.  A place were Shaun will post his answers
-  to various GUI assignments.
-  updated by SJC on October 2, 2014 at 8:26 PM
+  Copyright (c) 2014 by Shaun J. Confrey.  
+  
+  updated by SJC on October 23, 2014 at 5:00 PM
 */
 
-body
+body   
 {
   background-image: url("../images/numback.jpg");
   background-repeat: no-repeat;
