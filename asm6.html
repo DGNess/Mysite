@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+ <!--
+  File:  /~sconfrey/public_html/asm6.html
+  91.461 Assignment:  Styling Your First Web Page With CSS
+  Shaun J. Confrey, UMass Lowell Computer Science, shaun_confrey@student.uml.edu
+  Copyright (c) 2014 by Shaun J. Confrey.  A place were Shaun will post his answers
+  to various GUI assignments.
+  updated by SJC on October 22, 2014 at 8:26 PM
+-->
+
+  <head>
+    <title>Shaun Confrey's Assignments</title>   <!-- name of the site  and styling-->
+    <meta charset="utf-8">
+    <link href="css/asm6.css" rel="stylesheet" type="text/css"> <!-- css location  -->
+    <link rel="icon" type="image/png" href="icons/site16.png" sizes="16x16" />
+    
+    <!--
+       load jQuery library from the Google Content Delivery Network (CDN)
+       see http://encosia.com/3-reasons-why-you-should-let-google-host-jquery-for-you/
+       however, note that you obviously must be online for this to work
+       alternatively, you can download jQuery and store it locally from
+       http://jquery.com/download/
+   -->
+    <script src="jquery-1.4.2.min.js"></script>
+  </head>
+  
+  <body>
+    <div id="form">
+      <form id="input" action="javascript:void(0)" method="GET" onsubmit="return makeTable();">
+        Min Column Value: <input type="text" id="colMin" name="colMin"><br>
+        Max Column Value: <input type="text" id="colMax" name="ColMax"><br>
+        Min Row Value:    <input type="text" id="rowMin" name="rowMin"><br>
+        Max Row Value:    <input type="text" id="rowMax" name="rowMax"><br>
+        <input type="submit" value="Create Table" id="submit">
+      </form>
+    </div>
+    <!-- This is where the table will be placed once generated -->
+    <div id="table"></div>
+  </body>
+  
+    <script>
+      // This script takes input from the user 
+      // and dynamically creates a multiplication table with the given values
+      function makeTable() {
+      
+        // Checks to make sure all entered values are valid numbers
+        if ((input.colMin.value == "") || (input.colMax.value == "") ||
+                (input.rowMin.value == "") || (input.rowMax.value == "") ||
+                isNaN(input.colMin.value) || isNaN(input.colMax.value) ||
+                isNaN(input.rowMin.value) || isNaN(input.rowMax.value)) {
+          alert("Enter valid nubers in the fields");
+          return false;
+        }
+
+        //reads in valid numbers and stores them in variables
+        var colMin = parseInt(input.colMin.value); 
+        var colMax = parseInt(input.colMax.value); 
+        var rowMin = parseInt(input.rowMin.value); 
+        var rowMax = parseInt(input.rowMax.value); 
+
+        // Make sure min and max are not swaped
+        if ((colMin > colMax) || (rowMin > rowMax)) {
+          alert("Min higher than max");
+          return false;
+        }
+        
+        // find the size of the columns and rows
+        var colSize = colMax - colMin;
+        var rowSize = rowMax - rowMin;
+
+        // Create arrays to put column and row numbers to be mutiplyed
+        
+        var colNumbers = new Array();
+        var rowNumbers = new Array();
+        for (colMin; colMin <= colMax; colMin++) {
+          colNumbers.push(colMin);
+        }
+        for (rowMin; rowMin <= rowMax; rowMin++) {
+          rowNumbers.push(rowMin);
+        }
+
+        // Remove any previously created table
+        $("#table").empty();
+
+        // Starts with -1 for column and row headers
+        for (i = -1; i <= rowSize; i++) {
+          for (j = -1; j <= colSize; j++) {
+            // makes left cell empty
+            if (i === -1 && j === -1) {
+              $("#table").append('<td class="row' + (i + 1) + ' col' + (j + 1) + '"></td>');
+            }
+            // Top row numbers
+            else if (i === -1 && j >= 0) {
+              $("#table").append('<td class="row' + (i + 1) + '">' + colNumbers[j] + '</td>');
+            }
+            // side numbers
+            else if (i >= 0 && j === -1) {
+              $("#table").append('<td class="row' + (i + 1) + ' col' + (j + 1) + '">' + rowNumbers[i] + '</td>');
+            }
+            // table numbers 
+            else {
+              $("#table").append('<td class="row' + (i + 1) + ' cell">' + (colNumbers[j] * rowNumbers[i]) + '</td>');
+            }
+          }
+          //wrap created row in <tr></tr> 
+          $(".row" + (i + 1)).wrapAll('<tr class="row' + (i + 1) + '"></tr>');   
+        }
+        
+        $("tr").wrapAll("<tbody></tbody>");              // wrap all <tr> elements in a <tbody>
+        $("tbody").wrap("<table id=\"table\"></table>"); // wrap everything in a <table>
+        return false;
+      }
+
+    </script>
+</html>
