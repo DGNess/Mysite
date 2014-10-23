@@ -4,19 +4,19 @@
   Shaun J. Confrey, UMass Lowell Computer Science, shaun_confrey@student.uml.edu
   Copyright (c) 2014 by Shaun J. Confrey.  
   
-  updated by SJC on October 23, 2014 at 5:00 PM
+  updated by SJC on October 23, 2014 at 4:00 PM
 */
 
-body   
+body   /*styles the main body*/
 {
   background-image: url("../images/numback.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed; /* Image move when scrolled */
+  background-attachment: fixed;
   background-position: center; 
   margin: auto;
 }
 
-#form
+#form   /*styles the box asking for table values*/
 {
   margin: auto;
   margin-top:50px;
@@ -26,38 +26,38 @@ body
   width: 200px;
 }
 
-#input
+#input /*moves input to left*/
 {
   margin-left: 10%;
 }
 
-#submit
+#submit /*positions submit button*/
 {
   position: relative;
   padding: 10px;
   margin-top: 10% ;
 }
 
-#table
+#table /*The table container*/
 {
   position: relative;
   margin-top: 30px;
 }
 
-table
+table /*Styles the generated table*/
 {
   border: 10px solid darkgreen;
   margin: 0 30%;
   font-size: 2em;
   background-color: white;
 }
-.row0, .col0
+.row0, .col0 /*styles the top row and left most column*/
 {
   background-color: black;
   color: white;
 }
 
-.cell
+.cell /*styles the number cells*/
 {
   border: 1px solid black;
 }
