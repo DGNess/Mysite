@@ -12,6 +12,7 @@ body
   background-image: url("../images/numback.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed; /* Image move when scrolled */
+  background-position: center; 
   margin: auto;
 }
 
