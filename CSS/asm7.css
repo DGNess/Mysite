@@ -1,0 +1,168 @@
+﻿/* The CSS theme for the Navigation Example site. */
+
+
+
+/* Style the navigation bar links.  */ 
+#navbar a {
+  font-family: sans-serif;
+  font-size: 1.5em;
+  margin: 0px 10px 0px 10px;
+  padding: 0px 8px 0px 8px;
+  color: black;
+  text-decoration: none;
+
+
+}
+
+/* Give the user an affordance that each link is clickable. */
+#navbar a:hover {
+  color: red;
+}
+
+/* Style the active page link. */
+#navbar a.active{
+  color: green;
+}
+
+a:visited {                               /*changes color of visited links*/
+    color: #CC00FF;
+} 
+
+#content {
+
+
+
+}
+
+h2 {
+
+color: blue;
+
+}
+
+
+#navbar {
+    text-align:left;
+    border: 5px solid black;
+    background-color: #B280E6;
+    width: 200px;
+    height: 300px;
+    top:200px;
+    left: 200px;
+    position: fixed;                     /*the nave bar will always be on the top even if scrolled*/
+    z-index: 2;                          /*so the nav bar stays on top*/
+}
+
+body {
+    margin-left: auto;                            /*moves site of the edge of the page*/
+    margin-right: auto;
+    width: 30%;
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url('../images/bk.gif');    /*site background image*/
+    background-repeat: no-repeat;                 /*does not repeat image*/
+    background-color: #B2F0E0;
+    line-height: 1.25;
+    padding: 15px;
+}
+
+	
+h1 {                                              /*site/page banners each page says something different */
+
+    width: 500px;
+    font-family: Arial, sans-serif;
+    background-color: #7C9A30;
+    color: white;
+}
+
+h2 {                                              /*affects all h2 unless otherwise changed*/
+    color: green;
+    font-size: medium;
+    font-weight: normal;  
+}
+   
+   
+li {                                             /*basic list item rules*/
+    font-size: small;
+}
+  
+p{                                              /*basic paragraph rules*/
+    font-size: small;
+    color: navy;
+}
+
+#myhead img {                                  /*picture of my face*/
+    border: 5px solid #7C9A30;
+    height: 360px;                             /*sets demensions of the image, normally very large*/
+    width: 270px;
+}
+
+#totodile{                                  /*the other photo used on the site*/ 
+    position: relative;
+    top: 600px;                             /*moves the picture lower on the page*/ 
+    right:-500px;
+}
+
+#AboutMe p{                                 /*the small blurb about myself*/
+    border: 5px solid #0000B2;
+    background-color: #cccccc;
+    width: 400px;
+    font-size: 16pt;
+    position: relative;
+    top: -300px;                            /*moves the blurb about me next to my picture*/ 
+    right:-300px;
+}
+
+#asm {                                     /*box containing links to the various assignments*/
+    border: 5px dashed #0000B2;
+    background-color: #cccccc;
+    width: 400px;
+    font-size: 12pt;
+}
+  
+
+#AboutMe h2{                                /*the h2 in about me*/
+    border: 5px solid black;
+    background-color: #FFD6D6;
+    width: 200px;
+    padding-left: 20px;
+    position: relative;
+    top:12px;                              /*moves the about me header*/
+    right:-20px;
+}
+
+#tagline{                                  /*discription of what each page contains basic rules*/
+    border: 5px solid black;
+    background-color: #FFD6D6;
+    width: 500px;
+} 
+#more h2{                                  /*the more info header*/
+    border: 5px solid black;
+    background-color: #FFD6D6;
+    width: 100px;
+    padding: 10px;
+    position: relative;
+    top:-400px;                           /*sets place for more info*/
+}
+
+#more p{                                  /*More detail on who I am*/
+    border: 5px solid black;
+    background-color: #FFD6D6;
+    width: 300px;
+    padding: 20px;
+    position: relative;
+    top:-480px;                            /*sets place for more info*/
+    right:-150px;
+}
+
+#more p{
+    font-size: 22pt;                       /*larger font for more info*/
+}
+
+#contact{                                 /*basic contact rules*/
+    border: 5px solid black;
+    background-color: #4DB870;
+    width: 350px;
+    padding: 0px;
+    position: relative;
+    top:20px;                              /*sets contact down a bit info*/
+}
