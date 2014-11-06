@@ -1,8 +1,11 @@
-﻿/* The CSS theme for the Navigation Example site. */
-
-
-
-/* Style the navigation bar links.  */ 
+﻿/* File:  /~sconfrey/public_html/asm7.css
+   91.461 Assignment:  Creating a Single-Page Navigation Interface
+   Shaun J. Confrey, UMass Lowell Computer Science, shaun_confrey@student.uml.edu
+   Copyright (c) 2014 by Shaun J. Confrey.  All rights reserved.This is the main
+   css fle for Shaun Confrey's website. 
+   updated by SJC on November 5, 2014 at 10:26 PM */
+   
+/* Style the navigation bar links.  */  
 #navbar a {
     font-family: sans-serif;
     list-style-type: none;
@@ -28,11 +31,6 @@ a:visited {                               /*changes color of visited links*/
     color: #CC00FF;
 } 
 
-#content {
-
-
-
-}
 
 h2 {
 
@@ -45,6 +43,7 @@ color: blue;
     text-align:left;
     border: 5px solid black;
     background-color: #B280E6;
+    background-image: url('../images/site_nav.png');
     width: 200px;
     height: 300px;
     top:200px;
@@ -166,3 +165,4 @@ p{                                              /*basic paragraph rules*/
     position: relative;
     top:20px;                              /*sets contact down a bit info*/
 }
+
