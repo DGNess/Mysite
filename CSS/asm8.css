@@ -9,7 +9,7 @@
 
 body /* styles the body*/
 {
-  background-image: url("br_h.png"); /*backround image location */
+  background-image: url("../images/br_h.png"); /*backround image location */
   background-repeat: repeat;
   margin: auto;
 }
