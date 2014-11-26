@@ -1,0 +1,232 @@
+<!DOCTYPE HTML>
+<html lang="en">
+ <!--
+  File:  /~sconfrey/public_html/asm8.html
+  91.461 Assignment:  Using the jQuery Validation Plugin and jQueryUI Tabbed Widget
+  Shaun J. Confrey, UMass Lowell Computer Science, shaun_confrey@student.uml.edu
+  Copyright (c) 2014 by Shaun J. Confrey.  This widget takes in values from a form
+  and dispays the results in new tabs
+  updated by SJC on November 26, 2014 at 5:06 PM
+-->
+
+<!--
+  Base tab code taken from Jesse M. Heines DynamicTabs.html handout. 
+  Was modified to fit assignment.
+
+-->
+  <head>
+    <title>Assignment No. 8</title>
+    <meta charset="utf-8">
+    
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="jquery-ui-1.11.2/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="jquery-ui-themes-1.11.2/themes/excite-bike/jquery-ui.css" />
+    <script src="_js/jquery.validate.min.js"></script>
+    <link href="asm8.css" rel="stylesheet" type="text/css"> <!-- css location  -->
+
+    <script type="text/javascript">  
+      $(document).ready( function() {
+        $('#info').validate({  //start of validator to validate form numbers
+          rules: {  //rules for the input fields
+            colMin: {
+              required: true,
+              number: true
+            },
+            colMax: {
+              required: true,
+              number: true
+            },
+            rowMin: {
+              required: true,
+              number: true
+            },
+            rowMax: {
+              required: true,
+              number: true
+            }     
+          },//end rules
+          messages: { //messages to display when error occurs
+            colMin: {
+              required: "Please enter a number for Min column",
+              number: "Please enter only numbers"
+            },
+            colMax: {
+              required: "Please enter a number for Max column",
+              number: "Please enter only numbers"
+            },
+            rowMin: {
+              required: "Please enter a number for Min Row",
+              number: "Please enter only numbers"
+            },
+            rowMax: {
+              required: "Please enter a number for Max Row",
+              number: "Please enter only numbers"
+            }     
+          },//end messages
+          //If the form validates, the following function will be performed
+          submitHandler: function (form){
+          
+            // get values entered from the form
+            var colMin = parseInt(info.colMin.value); 
+            var colMax = parseInt(info.colMax.value); 
+            var rowMin = parseInt(info.rowMin.value); 
+            var rowMax = parseInt(info.rowMax.value); 
+         
+            //swap min/max if min is larger than max
+            //Makes it so that a small mistake does not prompt the user to swap numbers
+            if (colMin > colMax) {
+              temp = parseInt(info.colMin.value); 
+              info.colMin.value = parseInt(info.colMax.value);   //swaps numbers in forms for future tabs 
+              info.colMax.value  = temp; 
+              temp = colMin;
+              colMin = colMax;   //actually swaps the values taken in from the form
+              colMax = temp;  
+          
+            }
+            if (rowMin > rowMax) {
+              temp = parseInt(info.rowMin.value); 
+              info.rowMin.value = parseInt(info.rowMax.value);   //swaps numbers in forms for future tabs 
+              info.rowMax.value  = temp; 
+              temp = rowMin;
+              rowMin = rowMax;     //actually swaps the values taken in from the form
+              rowMax = temp;           
+            }
+
+            // create a new tab for table title given is from form numbers
+            tabslist.append( '<li><a href="#' + id + '">' +
+            rowMin + " - " + rowMax + " X " + colMin + " - " + colMax + '</a></li>' ) ;
+        
+            // add content to the new tab table divs
+            tabsdiv.append( '<div id="' + id + '">' +
+            '<button class="remove-tab">Remove Table</button><table id="' + td + '"></table></div>' ) ;
+       
+            // TABLE FUNCTION BEGIN: base code taken from assignment 6//
+            //modified to make different tables on different tabs//
+
+            //creates the table row by row,  -1 is used for outside edges
+            for (i = (colMin - 1); i <= colMax; i++) {
+              for (j = (rowMin - 1); j <= rowMax; j++) {
+                // makes left cell empty
+                if (i == (colMin - 1) && j == (rowMin - 1)) {
+                  $tr.append('<td class=row0 col0></td>');
+                }
+                // Top row numbers
+                else if (i == (colMin - 1) && j >= rowMin) {
+                  $tr.append('<td class=row_top>' + j + '</td>');
+                }          
+                // side numbers
+                else if (i >= colMin && j == (rowMin - 1)) {
+                  $tr.append('<td class=row_side>' + i + '</td>');
+                }          
+                // table numbers 
+                else {
+                  $tr.append('<td class=nums>' + (j * i) + '</td>'); 
+                }
+              }
+              //wrap created row in <tr></tr> 
+              $("#" +td).append($tr);
+              rr++;   //row counter increased
+              rt = "row-" + rr; //row name changed
+              $tr = $('<tr class="' + rt + '"></tr>'); //row id var changed 
+            }         
+            //END TABLE FUNCTION//
+
+            // refresh the tab structure to make the newly added components appear
+            $("#myTabs").tabs( "refresh" ) ;
+            $("#MyTabs").tabs("option", "active", 1); //Set the first tab to be active
+
+            // add click handler to all buttons with class remove-tab
+            // note that this statement must be executed AFTER the tabs structure is refreshed
+            $("#" + id + " .remove-tab").click( RemoveTabButtonClickHandler ) ;
+      
+            // increment number of next tab to add
+            tabCounter++ ;  
+            id = "tabs-" + tabCounter
+            td = "table-" + tabCounter            
+          } //end of submitHandler: function (form)
+      
+        }); //end sign up validate()
+      
+      
+        //keep track of tab names
+        var tabCounter = 1;
+        var rr = 0;
+        var id = "tabs-" + tabCounter;
+        var td = "table-" + tabCounter;
+        var rt = "row-" + rr;
+        var $tr = $('<tr class="' + rt + '"></tr>');
+        var temp;
+    
+        $("#myTabs").tabs();
+
+        var tabsdiv = $("#myTabs") ;
+      
+        // the list of tabs
+        var tabslist = tabsdiv.find("ul") ;
+
+        // this function is executed when an remove-tab button is clicked
+        var RemoveTabButtonClickHandler = function() {
+              
+        // remove tab content
+          $(this).parent().remove() ;
+    
+          // remove tab itself        
+          var id = $(this).parent().attr("id") ;
+          // console.log( "need to remove tab with href = #" + id ) ;
+          var tabToRemove = tabslist.find( "li a[href='#" + id + "']").parent() ;
+          // console.log( "tabToRemove = " + tabToRemove.html() ) ;
+          tabToRemove.remove() ;
+    
+          // refresh the tab structure to make the newly added components appear
+          $("#myTabs").tabs( "refresh" ) ;
+        } ;
+    
+        // add the Add Tab button click handler to all All Tab buttons
+        //$(".add-tab").click( AddTabButtonClickHandler ) ;
+    
+        // add the Add Tab button click handler to all All Tab buttons
+        $(".remove-tab").click( RemoveTabButtonClickHandler ) ;
+      
+     
+    
+      } ) ;
+
+    </script>
+  </head>
+
+  <body>
+    <h1>Assignment No. 8</h1> <!--Title-->
+    <h2>Using the jQuery Validation Plugin and jQueryUI Tabbed Widget</h2>
+    <div id="dialog" title="Table data">
+      <form action="javascript:void(0)" method="GET" name="info" id="info"> <!--Form for numbers -->
+        <div>
+          <label for="colMin" class="label">Min Column Value: </label> <!--col min input-->
+          <input type="text" name="colMin" id="colMin" value="1">
+        </div>
+        <div>   
+          <label for="colMax" class="label">Max Column Value:</label><!-- col max input-->
+          <input type="text" name="colMax" id="colMax" value="10" >
+        </div>
+        <div>
+          <label for="rowMin" class="label">Min Row Value:</label><!-- row min input -->
+          <input type="text" name="rowMin" id="rowMin" value="1" >
+        </div>
+        <div>
+          <label for="rowMax" class="label">Max Row Value:</label><!-- row max input -->
+          <input type="text" name="rowMax" id="rowMax" value="10" >
+        </div>
+        <input type="submit" value="Create Table" id="submit"> <!--submit table form-->
+        <input type="button" onClick="history.go(0)" value="DELETE ALL TABLES" id="gone"><!--Delete all tabs -->
+      </form>
+    </div>
+    <div id="myTabs">
+      <ul>
+        <li><a href="#base">HOW TO USE</a></li> <!--Basic info tab-->
+      </ul>
+      <div id="base">
+        <p>Enter your values into the form and click "create table"</p>
+        <p>You can delete all the tables at once by clicking DELETE ALL TABLES</p>
+      </div>
+    </div>
+  </body>
+</html>
