@@ -1,0 +1,72 @@
+/* 
+  File:  /~sconfrey/public_html/asm8.css
+  91.461 Assignment:  Using the jQuery Validation Plugin and jQueryUI Tabbed Widget
+  Shaun J. Confrey, UMass Lowell Computer Science, shaun_confrey@student.uml.edu
+  Copyright (c) 2014 by Shaun J. Confrey.  This widget takes in values from a form
+  and dispays the results in new tabs
+  updated by SJC on November 26, 2014 at 5:06 PM
+*/
+
+body /* styles the body*/
+{
+  background-image: url("br_h.png"); /*backround image location */
+  background-repeat: repeat;
+  margin: auto;
+}
+
+#info label.error { /*error text style*/
+  font-size: 0.8em;
+  color: #F00;
+  font-weight: bold;
+  display: block;
+
+}
+
+#myTabs {   /*tabs placement*/
+  margin-right:230px;
+  position: relative;
+  top: -250px;
+  right:-220px;  
+}
+
+ /* highlights entry field with error*/
+#info input.error, #info select.error {  
+  background: #FFCCCC;
+  border: 1px solid red;
+}
+
+/* Style the entry form and placement*/
+#dialog{ 
+  margin-left:20px;
+  width: 160px;
+  padding:10px;
+  border: 1px solid blue;
+  background-color: #FFE2B8;
+}
+
+/*The submit / delete button style*/
+#submit, #gone
+{
+  position: relative;
+  padding: 10px;
+}
+
+table /*The table style from assignment 6 */
+{
+  position: relative;
+  border: 10px solid darkgreen;
+  margin-top:10px;
+  font-size: 1em;
+  background-color: white;
+}
+
+.row0, .row_top, .row_side /*the top and side rows styled*/
+{
+  background-color: black;
+  color: white;
+}
+
+.nums  /*main table styled*/
+{
+  border: 1px solid black;
+}
