@@ -41,7 +41,7 @@ body, table {
   height: 140px ;
   background-color: white;
   position: fixed;     /*Search does not move when scrolled*/
-  background-image: url('pdex.png');
+  background-image: url('../images/pdex.png');
 }   
 
 /* collapse the table borders to achieve the desired effect*/
