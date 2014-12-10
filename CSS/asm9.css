@@ -1,0 +1,113 @@
+/*  File:  D:\H-Drive\91-461\461-2014-15f\assn09\MySolution\jmh-assn09.css
+ *  Jesse M. Heines, UMass Lowell Computer Science, heines@cs.uml.edu
+ *  Copyright (c) 2014 by Jesse M. Heines.  All rights reserved.  May be freely 
+ *    copied or excerpted for educational purposes with credit to the author.
+ *  updated by JMH on November 30, 2014 at 9:03 AM
+ */
+ 
+
+/* set font family and font size for entire page */
+body   /*styles the main body*/
+{
+  background-color:#751919;
+}
+
+table
+{
+  background-color:#DB8282;
+}
+
+body, table {
+  font-family: Verdana, Arial, Helvetica, sans-serif ;
+  font-size: 10pt ;
+}
+
+/*Styles the main tile of the page*/
+#Title {
+  width:350px;
+  margin:auto;
+  background-color:#661452 ;
+  color: #70B8FF;
+}
+
+/* eliminate the space above the main page title and between that title 
+   and the version information that immediately follows it on the next line */
+
+/*styles the search bar*/   
+#search_Dex {
+  padding: 3px;
+  border: 4px solid black;
+  width: 115px ;
+  height: 140px ;
+  background-color: white;
+  position: fixed;     /*Search does not move when scrolled*/
+  background-image: url('pdex.png');
+}   
+
+/* collapse the table borders to achieve the desired effect*/
+#tblSubmissions {
+  border-collapse: collapse ;
+  margin: auto;
+}
+
+/* add borders and padding to the table head and body cells */
+#tblSubmissions th, #tblSubmissions td {
+  border: 1px solid black ;
+  padding: 2px 5px ;
+}
+
+/* reverse video header row */
+#tblSubmissions thead tr th {
+  color: white ;
+  background-color: black ;
+}
+
+
+/* indicate that certain columns are clickable */
+#tblSubmissions thead tr th:nth-child(1),
+#tblSubmissions thead tr th:nth-child(3),
+#tblSubmissions thead tr th:nth-child(4),
+#tblSubmissions thead tr th:nth-child(5),
+#tblSubmissions thead tr th:nth-child(6),
+#tblSubmissions thead tr th:nth-child(7)
+ {
+  color: black ;
+  background-color: #DCC1E5 ;
+}
+
+/* handle rollovers on clickable columns */
+#tblSubmissions thead tr th:nth-child(1):hover,
+#tblSubmissions thead tr th:nth-child(3):hover,
+#tblSubmissions thead tr th:nth-child(4):hover,
+#tblSubmissions thead tr th:nth-child(5):hover,
+#tblSubmissions thead tr th:nth-child(6):hover,
+#tblSubmissions thead tr th:nth-child(7):hover
+ {
+  cursor: pointer ;
+  color: black ;
+  background-color: #70B8FF ;
+}
+
+/* align all table body cells to the top of their cells*/
+#tblSubmissions tbody tr td {
+  vertical-align: top ;
+}
+
+/* center the cells in 1 5 6 and 7 columns of the table */
+#tblSubmissions tbody tr td:nth-child(1),
+#tblSubmissions tbody tr td:nth-child(5),
+#tblSubmissions tbody tr td:nth-child(6),
+#tblSubmissions tbody tr td:nth-child(7)
+ {
+  text-align: center ;
+}
+
+#tblSubmissions tbody tr td:nth-child(2)
+{
+ background-color:#FFFFFF;
+}
+
+/*links at top of table not underlined*/
+a {
+  text-decoration: none
+}
