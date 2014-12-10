@@ -1,0 +1,1361 @@
+[
+  {
+    "number": 1,
+    "name": "Bulbasaur",
+    "type": "Grass/Poison",
+    "evolve": 16,
+    "height": 0.7,
+    "weight": 6.9,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/001.png"
+  },
+  {
+    "number": 2,
+    "name": "Ivysaur",
+    "type": "Grass/Poison",
+    "evolve": 32,
+    "height": 1,
+    "weight": 13,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/002.png"
+  },
+  {
+    "number": 3,
+    "name": "Venusaur",
+    "type": "Grass/Poison",
+    "evolve": "no evolution",
+    "height": 2,
+    "weight": 100,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/003.png"
+  },
+  {
+    "number": 4,
+    "name": "Charmander",
+    "type": "Fire",
+    "evolve": 16,
+    "height": 0.6,
+    "weight": 8.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/004.png"
+  },
+  {
+    "number": 5,
+    "name": "Charmeleon",
+    "type": "Fire",
+    "evolve": 36,
+    "height": 1.1,
+    "weight": 19,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/005.png"
+  },
+  {
+    "number": 6,
+    "name": "Charizard",
+    "type": "Fire",
+    "evolve": "no evolution",
+    "height": 1.7,
+    "weight": 90.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/006.png"
+  },
+  {
+    "number": 7,
+    "name": "Squirtle",
+    "type": "Water",
+    "evolve": 16,
+    "height": 0.5,
+    "weight": 9,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/007.png"
+  },
+  {
+    "number": 8,
+    "name": "Wartortle",
+    "type": "Water",
+    "evolve": 36,
+    "height": 1,
+    "weight": 22.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/008.png"
+  },
+  {
+    "number": 9,
+    "name": "Blastoise",
+    "type": "Water",
+    "evolve": "no evolution",
+    "height": 1.6,
+    "weight": 85.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/009.png"
+  },
+  {
+    "number": 10,
+    "name": "Caterpie",
+    "type": "Bug",
+    "evolve": 7,
+    "height": 0.3,
+    "weight": 2.9,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/010.png"
+  },
+  {
+    "number": 11,
+    "name": "Metapod",
+    "type": "Bug",
+    "evolve": 10,
+    "height": 0.7,
+    "weight": 9.9,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/011.png"
+  },
+  {
+    "number": 12,
+    "name": "Butterfree",
+    "type": "Bug/Flying",
+    "evolve": "no evolution",
+    "height": 1.1,
+    "weight": 32,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/012.png"
+  },
+  {
+    "number": 13,
+    "name": "Weedle",
+    "type": "Bug/Poison",
+    "evolve": 7,
+    "height": 0.3,
+    "weight": 3.2,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/013.png"
+  },
+  {
+    "number": 14,
+    "name": "Kakuna",
+    "type": "Bug/Poison",
+    "evolve": 10,
+    "height": 0.6,
+    "weight": 10,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/014.png"
+  },
+  {
+    "number": 15,
+    "name": "Beedrill",
+    "type": "Bug/Poison",
+    "evolve": "no evolution",
+    "height": 1,
+    "weight": 29.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/015.png"
+  },
+  {
+    "number": 16,
+    "name": "Pidgey",
+    "type": "Normal/Flying",
+    "evolve": 18,
+    "height": 0.3,
+    "weight": 1.8,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/016.png"
+  },
+  {
+    "number": 17,
+    "name": "Pidgeotto",
+    "type": "Normal/Flying",
+    "evolve": 36,
+    "height": 1.1,
+    "weight": 30,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/017.png"
+  },
+  {
+    "number": 18,
+    "name": "Pidgeot",
+    "type": "Normal/Flying",
+    "evolve": "no evolution",
+    "height": 1.5,
+    "weight": 39.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/018.png"
+  },
+  {
+    "number": 19,
+    "name": "Rattata",
+    "type": "Normal",
+    "evolve": 20,
+    "height": 0.3,
+    "weight": 3.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/019.png"
+  },
+  {
+    "number": 20,
+    "name": "Raticate",
+    "type": "Normal",
+    "evolve": "no evolution",
+    "height": 0.7,
+    "weight": 18.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/020.png"
+  },
+  {
+    "number": 21,
+    "name": "Spearow",
+    "type": "Normal/Flying",
+    "evolve": 20,
+    "height": 0.3,
+    "weight": 2,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/021.png"
+  },
+  {
+    "number": 22,
+    "name": "Fearow",
+    "type": "Normal/Flying",
+    "evolve": "no evolution",
+    "height": 1.2,
+    "weight": 38,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/022.png"
+  },
+  {
+    "number": 23,
+    "name": "Ekans",
+    "type": "Poison",
+    "evolve": 22,
+    "height": 2,
+    "weight": 6.9,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/023.png"
+  },
+  {
+    "number": 24,
+    "name": "Arbok",
+    "type": "Poison",
+    "evolve": "no evolution",
+    "height": 3.5,
+    "weight": 65,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/024.png"
+  },
+  {
+    "number": 25,
+    "name": "Pikachu",
+    "type": "Electric",
+    "evolve": "Thunder Stone",
+    "height": 0.4,
+    "weight": 6,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/025.png"
+  },
+  {
+    "number": 26,
+    "name": "Raichu",
+    "type": "Electric",
+    "evolve": "no evolution",
+    "height": 0.8,
+    "weight": 30,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/026.png"
+  },
+  {
+    "number": 27,
+    "name": "Sandshrew",
+    "type": "Ground",
+    "evolve": 22,
+    "height": 0.6,
+    "weight": 12,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/027.png"
+  },
+  {
+    "number": 28,
+    "name": "Sandslash",
+    "type": "Ground",
+    "evolve": "no evolution",
+    "height": 1,
+    "weight": 29.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/028.png"
+  },
+  {
+    "number": 29,
+    "name": "Nidoran♀",
+    "type": "Poison",
+    "evolve": 16,
+    "height": 0.4,
+    "weight": 7,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/029.png"
+  },
+  {
+    "number": 30,
+    "name": "Nidorina",
+    "type": "Poison",
+    "evolve": "Moon Stone",
+    "height": 0.8,
+    "weight": 20,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/030.png"
+  },
+  {
+    "number": 31,
+    "name": "Nidoqueen",
+    "type": "Poison/Ground",
+    "evolve": "no evolution",
+    "height": 1.3,
+    "weight": 60,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/031.png"
+  },
+  {
+    "number": 32,
+    "name": "Nidoran♂",
+    "type": "Poison",
+    "evolve": 16,
+    "height": 0.5,
+    "weight": 9,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/032.png"
+  },
+  {
+    "number": 33,
+    "name": "Nidorino",
+    "type": "Poison",
+    "evolve": "Moon Stone",
+    "height": 0.9,
+    "weight": 19.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/033.png"
+  },
+  {
+    "number": 34,
+    "name": "Nidoking",
+    "type": "Poison/Ground",
+    "evolve": "no evolution",
+    "height": 1.4,
+    "weight": 62,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/034.png"
+  },
+  {
+    "number": 35,
+    "name": "Clefairy",
+    "type": "Normal",
+    "evolve": "Moon Stone",
+    "height": 0.6,
+    "weight": 7.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/035.png"
+  },
+  {
+    "number": 36,
+    "name": "Clefable",
+    "type": "Normal",
+    "evolve": "no evolution",
+    "height": 1.3,
+    "weight": 40,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/036.png"
+  },
+  {
+    "number": 37,
+    "name": "Vulpix",
+    "type": "Fire",
+    "evolve": "Fire Stone",
+    "height": 0.6,
+    "weight": 9.9,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/037.png"
+  },
+  {
+    "number": 38,
+    "name": "Ninetales",
+    "type": "Fire",
+    "evolve": "no evolution",
+    "height": 1.1,
+    "weight": 19.9,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/038.png"
+  },
+  {
+    "number": 39,
+    "name": "Jigglypuff",
+    "type": "Normal",
+    "evolve": "Moon Stone",
+    "height": 0.5,
+    "weight": 5.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/039.png"
+  },
+  {
+    "number": 40,
+    "name": "Wigglytuff",
+    "type": "Normal",
+    "evolve": "no evolution",
+    "height": 1,
+    "weight": 12,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/040.png"
+  },
+  {
+    "number": 41,
+    "name": "Zubat",
+    "type": "Poison/Flying",
+    "evolve": 22,
+    "height": 0.8,
+    "weight": 7.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/041.png"
+  },
+  {
+    "number": 42,
+    "name": "Golbat",
+    "type": "Poison/Flying",
+    "evolve": "no evolution",
+    "height": 1.6,
+    "weight": 55,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/042.png"
+  },
+  {
+    "number": 43,
+    "name": "Oddish",
+    "type": "Grass/Poison",
+    "evolve": 21,
+    "height": 0.5,
+    "weight": 5.4,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/043.png"
+  },
+  {
+    "number": 44,
+    "name": "Gloom",
+    "type": "Grass/Poison",
+    "evolve": "Leaf Stone",
+    "height": 0.8,
+    "weight": 8.6,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/044.png"
+  },
+  {
+    "number": 45,
+    "name": "Vileplume",
+    "type": "Grass/Poison",
+    "evolve": "no evolution",
+    "height": 1.2,
+    "weight": 18.6,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/045.png"
+  },
+  {
+    "number": 46,
+    "name": "Paras",
+    "type": "Bug/Grass",
+    "evolve": 24,
+    "height": 0.3,
+    "weight": 5.4,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/046.png"
+  },
+  {
+    "number": 47,
+    "name": "Parasect",
+    "type": "Bug/Grass",
+    "evolve": "no evolution",
+    "height": 1,
+    "weight": 29.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/047.png"
+  },
+  {
+    "number": 48,
+    "name": "Venonat",
+    "type": "Bug/Poison",
+    "evolve": 31,
+    "height": 1,
+    "weight": 30,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/048.png"
+  },
+  {
+    "number": 49,
+    "name": "Venomoth",
+    "type": "Bug/Poison",
+    "evolve": "no evolution",
+    "height": 1.5,
+    "weight": 12.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/049.png"
+  },
+  {
+    "number": 50,
+    "name": "Diglett",
+    "type": "Ground",
+    "evolve": 26,
+    "height": 0.2,
+    "weight": 0.8,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/050.png"
+  },
+  {
+    "number": 51,
+    "name": "Dugtrio",
+    "type": "Ground",
+    "evolve": "no evolution",
+    "height": 0.7,
+    "weight": 33.3,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/051.png"
+  },
+  {
+    "number": 52,
+    "name": "Meowth",
+    "type": "Normal",
+    "evolve": "28",
+    "height": 0.4,
+    "weight": 4.2,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/052.png"
+  },
+  {
+    "number": 53,
+    "name": "Persian",
+    "type": "Normal",
+    "evolve": "no evolution",
+    "height": 1,
+    "weight": 32,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/053.png"
+  },
+  {
+    "number": 54,
+    "name": "Psyduck",
+    "type": "Water",
+    "evolve": 33,
+    "height": 0.8,
+    "weight": 19.6,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/054.png"
+  },
+  {
+    "number": 55,
+    "name": "Golduck",
+    "type": "Water",
+    "evolve": "no evolution",
+    "height": 1.7,
+    "weight": 76.6,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/055.png"
+  },
+  {
+    "number": 56,
+    "name": "Mankey",
+    "type": "Fighting",
+    "evolve": 28,
+    "height": 0.5,
+    "weight": 28,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/056.png"
+  },
+  {
+    "number": 57,
+    "name": "Primeape",
+    "type": "Fighting",
+    "evolve": "no evolution",
+    "height": 1,
+    "weight": 32,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/057.png"
+  },
+  {
+    "number": 58,
+    "name": "Growlithe",
+    "type": "Fire",
+    "evolve": "Fire Stone",
+    "height": 0.7,
+    "weight": 19,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/058.png"
+  },
+  {
+    "number": 59,
+    "name": "Arcanine",
+    "type": "Fire",
+    "evolve": "no evolution",
+    "height": 1.9,
+    "weight": 155,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/059.png"
+  },
+  {
+    "number": 60,
+    "name": "Poliwag",
+    "type": "Water",
+    "evolve": 25,
+    "height": 0.6,
+    "weight": 12.4,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/060.png"
+  },
+  {
+    "number": 61,
+    "name": "Poliwhirl",
+    "type": "Water",
+    "evolve": "Water Stone",
+    "height": 1,
+    "weight": 20,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/061.png"
+  },
+  {
+    "number": 62,
+    "name": "Poliwrath",
+    "type": "Water/Fighting",
+    "evolve": "no evolution",
+    "height": 1.3,
+    "weight": 54,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/062.png"
+  },
+  {
+    "number": 63,
+    "name": "Abra",
+    "type": "Psychic",
+    "evolve": 16,
+    "height": 0.9,
+    "weight": 19.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/063.png"
+  },
+  {
+    "number": 64,
+    "name": "Kadabra",
+    "type": "Psychic",
+    "evolve": "Trade",
+    "height": 1.3,
+    "weight": 56.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/064.png"
+  },
+  {
+    "number": 65,
+    "name": "Alakazam",
+    "type": "Psychic",
+    "evolve": "no evolution",
+    "height": 1.5,
+    "weight": 48,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/065.png"
+  },
+  {
+    "number": 66,
+    "name": "Machop",
+    "type": "Fighting",
+    "evolve": "28",
+    "height": 0.8,
+    "weight": 19.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/066.png"
+  },
+  {
+    "number": 67,
+    "name": "Machoke",
+    "type": "Fighting",
+    "evolve": "Trade",
+    "height": 1.5,
+    "weight": 70.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/067.png"
+  },
+  {
+    "number": 68,
+    "name": "Machamp",
+    "type": "Fighting",
+    "evolve": "no evolution",
+    "height": 1.6,
+    "weight": 130,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/068.png"
+  },
+  {
+    "number": 69,
+    "name": "Bellsprout",
+    "type": "Grass/Poison",
+    "evolve": 21,
+    "height": 0.7,
+    "weight": 4,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/069.png"
+  },
+  {
+    "number": 70,
+    "name": "Weepinbell",
+    "type": "Grass/Poison",
+    "evolve": "Leaf Stone",
+    "height": 1,
+    "weight": 6.4,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/070.png"
+  },
+  {
+    "number": 71,
+    "name": "Victreebel",
+    "type": "Grass/Poison",
+    "evolve": "no evolution",
+    "height": 1.7,
+    "weight": 15.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/071.png"
+  },
+  {
+    "number": 72,
+    "name": "Tentacool",
+    "type": "Water/Poison",
+    "evolve": 30,
+    "height": 0.9,
+    "weight": 45.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/072.png"
+  },
+  {
+    "number": 73,
+    "name": "Tentacruel",
+    "type": "Water/Poison",
+    "evolve": "no evolution",
+    "height": 1.6,
+    "weight": 55,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/073.png"
+  },
+  {
+    "number": 74,
+    "name": "Geodude",
+    "type": "Rock/Ground",
+    "evolve": "25",
+    "height": 0.4,
+    "weight": 20,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/074.png"
+  },
+  {
+    "number": 75,
+    "name": "Graveler",
+    "type": "Rock/Ground",
+    "evolve": "Trade",
+    "height": 1,
+    "weight": 105,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/075.png"
+  },
+  {
+    "number": 76,
+    "name": "Golem",
+    "type": "Rock/Ground",
+    "evolve": "no evolution",
+    "height": 1.4,
+    "weight": 300,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/076.png"
+  },
+  {
+    "number": 77,
+    "name": "Ponyta",
+    "type": "Fire",
+    "evolve": 40,
+    "height": 1,
+    "weight": 30,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/077.png"
+  },
+  {
+    "number": 78,
+    "name": "Rapidash",
+    "type": "Fire",
+    "evolve": "no evolution",
+    "height": 1.7,
+    "weight": 95,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/078.png"
+  },
+  {
+    "number": 79,
+    "name": "Slowpoke",
+    "type": "Water/Psychic",
+    "evolve": 37,
+    "height": 1.2,
+    "weight": 36,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/079.png"
+  },
+  {
+    "number": 80,
+    "name": "Slowbro",
+    "type": "Water/Psychic",
+    "evolve": "no evolution",
+    "height": 1.6,
+    "weight": 78.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/080.png"
+  },
+  {
+    "number": 81,
+    "name": "Magnemite",
+    "type": "Electric",
+    "evolve": 30,
+    "height": 0.3,
+    "weight": 6,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/081.png"
+  },
+  {
+    "number": 82,
+    "name": "Magneton",
+    "type": "Electric",
+    "evolve": "no evolution",
+    "height": 1,
+    "weight": 60,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/082.png"
+  },
+  {
+    "number": 83,
+    "name": "Farfetch'd",
+    "type": "Normal/Flying",
+    "evolve": "no evolution",
+    "height": 0.8,
+    "weight": 15,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/083.png"
+  },
+  {
+    "number": 84,
+    "name": "Doduo",
+    "type": "Normal/Flying",
+    "evolve": 31,
+    "height": 1.4,
+    "weight": 39.2,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/084.png"
+  },
+  {
+    "number": 85,
+    "name": "Dodrio",
+    "type": "Normal/Flying",
+    "evolve": "no evolution",
+    "height": 1.8,
+    "weight": 85.2,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/085.png"
+  },
+  {
+    "number": 86,
+    "name": "Seel",
+    "type": "Water",
+    "evolve": "34",
+    "height": 1.1,
+    "weight": 90,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/086.png"
+  },
+  {
+    "number": 87,
+    "name": "Dewgong",
+    "type": "Water/Ice",
+    "evolve": "no evolution",
+    "height": 1.7,
+    "weight": 120,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/087.png"
+  },
+  {
+    "number": 88,
+    "name": "Grimer ",
+    "type": "Poison",
+    "evolve": 38,
+    "height": 0.9,
+    "weight": 30,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/088.png"
+  },
+  {
+    "number": 89,
+    "name": "Muk",
+    "type": "Poison",
+    "evolve": "no evolution",
+    "height": 1.2,
+    "weight": 30,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/089.png"
+  },
+  {
+    "number": 90,
+    "name": "Shellder ",
+    "type": "Water",
+    "evolve": "Water Stone",
+    "height": 0.3,
+    "weight": 4,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/090.png"
+  },
+  {
+    "number": 91,
+    "name": "Cloyster",
+    "type": "Water/Ice",
+    "evolve": "no evolution",
+    "height": 1.5,
+    "weight": 132.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/091.png"
+  },
+  {
+    "number": 92,
+    "name": "Gastly",
+    "type": "Ghost/Poison",
+    "evolve": "25",
+    "height": 1.3,
+    "weight": 0.1,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/092.png"
+  },
+  {
+    "number": 93,
+    "name": "Haunter",
+    "type": "Ghost/Poison",
+    "evolve": "Trade",
+    "height": 1.6,
+    "weight": 0.1,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/093.png"
+  },
+  {
+    "number": 94,
+    "name": "Gengar",
+    "type": "Ghost/Poison",
+    "evolve": "no evolution",
+    "height": 1.5,
+    "weight": 40.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/094.png"
+  },
+  {
+    "number": 95,
+    "name": "Onix",
+    "type": "Rock/Ground",
+    "evolve": "no evolution",
+    "height": 8.8,
+    "weight": 210,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/095.png"
+  },
+  {
+    "number": 96,
+    "name": "Drowzee",
+    "type": "Psychic",
+    "evolve": 26,
+    "height": 1,
+    "weight": 32.4,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/096.png"
+  },
+  {
+    "number": 97,
+    "name": "Hypno",
+    "type": "Psychic",
+    "evolve": "no evolution",
+    "height": 1.6,
+    "weight": 75.6,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/097.png"
+  },
+  {
+    "number": 98,
+    "name": "Krabby",
+    "type": "Water",
+    "evolve": 28,
+    "height": 0.4,
+    "weight": 6.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/098.png"
+  },
+  {
+    "number": 99,
+    "name": "Kingler",
+    "type": "Water",
+    "evolve": "no evolution",
+    "height": 1.3,
+    "weight": 60,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/099.png"
+  },
+  {
+    "number": 100,
+    "name": "Voltorb ",
+    "type": "Electric",
+    "evolve": 30,
+    "height": 0.5,
+    "weight": 10.4,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/100.png"
+  },
+  {
+    "number": 101,
+    "name": "Electrode",
+    "type": "Electric",
+    "evolve": "no evolution",
+    "height": 1.2,
+    "weight": 66.6,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/101.png"
+  },
+  {
+    "number": 102,
+    "name": "Exeggcute",
+    "type": "Grass/Psychic",
+    "evolve": "Leaf Stone",
+    "height": 0.4,
+    "weight": 2.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/102.png"
+  },
+  {
+    "number": 103,
+    "name": "Exeggutor",
+    "type": "Grass/Psychic",
+    "evolve": "no evolution",
+    "height": 2,
+    "weight": 120,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/103.png"
+  },
+  {
+    "number": 104,
+    "name": "Cubone",
+    "type": "Ground",
+    "evolve": 28,
+    "height": 0.4,
+    "weight": 6.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/104.png"
+  },
+  {
+    "number": 105,
+    "name": "Marowak",
+    "type": "Ground",
+    "evolve": "no evolution",
+    "height": 1,
+    "weight": 45,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/105.png"
+  },
+  {
+    "number": 106,
+    "name": "Hitmonlee",
+    "type": "Fighting",
+    "evolve": "no evolution",
+    "height": 1.5,
+    "weight": 49.8,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/106.png"
+  },
+  {
+    "number": 107,
+    "name": "Hitmonchan",
+    "type": "Fighting",
+    "evolve": "no evolution",
+    "height": 1.4,
+    "weight": 50.2,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/107.png"
+  },
+  {
+    "number": 108,
+    "name": "Lickitung",
+    "type": "Normal",
+    "evolve": "no evolution",
+    "height": 1.2,
+    "weight": 65.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/108.png"
+  },
+  {
+    "number": 109,
+    "name": "Koffing",
+    "type": "Poison",
+    "evolve": 35,
+    "height": 0.6,
+    "weight": 1,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/109.png"
+  },
+  {
+    "number": 110,
+    "name": "Weezing",
+    "type": "Poison",
+    "evolve": "no evolution",
+    "height": 1.2,
+    "weight": 9.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/110.png"
+  },
+  {
+    "number": 111,
+    "name": "Rhyhorn",
+    "type": "Ground/Rock",
+    "evolve": 42,
+    "height": 1,
+    "weight": 115,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/111.png"
+  },
+  {
+    "number": 112,
+    "name": "Rhydon ",
+    "type": "Ground/Rock",
+    "evolve": "no evolution",
+    "height": 1.9,
+    "weight": 120,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/112.png"
+  },
+  {
+    "number": 113,
+    "name": "Chansey",
+    "type": "Normal",
+    "evolve": "no evolution",
+    "height": 1.1,
+    "weight": 34.6,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/113.png"
+  },
+  {
+    "number": 114,
+    "name": "Tangela",
+    "type": "Grass",
+    "evolve": "no evolution",
+    "height": 1,
+    "weight": 35,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/114.png"
+  },
+  {
+    "number": 115,
+    "name": "Kangaskhan",
+    "type": "Normal",
+    "evolve": "no evolution",
+    "height": 2.2,
+    "weight": 80,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/115.png"
+  },
+  {
+    "number": 116,
+    "name": "Horsea",
+    "type": "Water",
+    "evolve": "32",
+    "height": 0.4,
+    "weight": 8,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/116.png"
+  },
+  {
+    "number": 117,
+    "name": "Seadra",
+    "type": "Water",
+    "evolve": "no evolution",
+    "height": 1.2,
+    "weight": 25,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/117.png"
+  },
+  {
+    "number": 118,
+    "name": "Goldeen",
+    "type": "Water",
+    "evolve": 33,
+    "height": 0.6,
+    "weight": 15,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/118.png"
+  },
+  {
+    "number": 119,
+    "name": "Seaking",
+    "type": "Water",
+    "evolve": "no evolution",
+    "height": 1.3,
+    "weight": 39,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/119.png"
+  },
+  {
+    "number": 120,
+    "name": "Staryu",
+    "type": "Water",
+    "evolve": "Water Stone",
+    "height": 0.8,
+    "weight": 34.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/120.png"
+  },
+  {
+    "number": 121,
+    "name": "Starmie",
+    "type": "Water/Psychic",
+    "evolve": "no evolution",
+    "height": 1.1,
+    "weight": 80,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/121.png"
+  },
+  {
+    "number": 122,
+    "name": "Mr. Mime",
+    "type": "Psychic",
+    "evolve": "no evolution",
+    "height": 1.3,
+    "weight": 54.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/122.png"
+  },
+  {
+    "number": 123,
+    "name": "Scyther",
+    "type": "Bug/Flying",
+    "evolve": "no evolution",
+    "height": 1.5,
+    "weight": 56,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/123.png"
+  },
+  {
+    "number": 124,
+    "name": "Jynx",
+    "type": "Ice/Psychic",
+    "evolve": "no evolution",
+    "height": 1.4,
+    "weight": 40.6,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/124.png"
+  },
+  {
+    "number": 125,
+    "name": "Electabuzz",
+    "type": "Electric",
+    "evolve": "no evolution",
+    "height": 1.1,
+    "weight": 30,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/125.png"
+  },
+  {
+    "number": 126,
+    "name": "Magmar",
+    "type": "Fire",
+    "evolve": "no evolution",
+    "height": 1.3,
+    "weight": 44.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/126.png"
+  },
+  {
+    "number": 127,
+    "name": "Pinsir ",
+    "type": "Bug",
+    "evolve": "no evolution",
+    "height": 1.5,
+    "weight": 55,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/127.png"
+  },
+  {
+    "number": 128,
+    "name": "Tauros",
+    "type": "Normal",
+    "evolve": "no evolution",
+    "height": 1.4,
+    "weight": 88.4,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/128.png"
+  },
+  {
+    "number": 129,
+    "name": "Magikarp ",
+    "type": "Water",
+    "evolve": 20,
+    "height": 0.9,
+    "weight": 10,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/129.png"
+  },
+  {
+    "number": 130,
+    "name": "Gyarados",
+    "type": "Water/Flying",
+    "evolve": "no evolution",
+    "height": 6.5,
+    "weight": 235,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/130.png"
+  },
+  {
+    "number": 131,
+    "name": "Lapras ",
+    "type": "Water/Ice",
+    "evolve": "no evolution",
+    "height": 2.5,
+    "weight": 220,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/131.png"
+  },
+  {
+    "number": 132,
+    "name": "Ditto",
+    "type": "Normal",
+    "evolve": "no evolution",
+    "height": 0.3,
+    "weight": 4,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/132.png"
+  },
+  {
+    "number": 133,
+    "name": "Eevee",
+    "type": "Normal",
+    "evolve": "F/W/T Stone",
+    "height": 0.3,
+    "weight": 6.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/133.png"
+  },
+  {
+    "number": 134,
+    "name": "Vaporeon",
+    "type": "Water",
+    "evolve": "no evolution",
+    "height": 1,
+    "weight": 29,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/134.png"
+  },
+  {
+    "number": 135,
+    "name": "Jolteon",
+    "type": "Electric",
+    "evolve": "no evolution",
+    "height": 0.8,
+    "weight": 24.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/135.png"
+  },
+  {
+    "number": 136,
+    "name": "Flareon",
+    "type": "Fire",
+    "evolve": "no evolution",
+    "height": 0.9,
+    "weight": 25,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/136.png"
+  },
+  {
+    "number": 137,
+    "name": "Porygon",
+    "type": "Normal",
+    "evolve": "Fno evolution",
+    "height": 0.8,
+    "weight": 36.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/137.png"
+  },
+  {
+    "number": 138,
+    "name": "Omanyte",
+    "type": "Rock/Water",
+    "evolve": "40",
+    "height": 0.4,
+    "weight": 7.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/138.png"
+  },
+  {
+    "number": 139,
+    "name": "Omastar",
+    "type": "Rock/Water",
+    "evolve": "no evolution",
+    "height": 1,
+    "weight": 35.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/139.png"
+  },
+  {
+    "number": 140,
+    "name": "Kabuto",
+    "type": "Rock/Water",
+    "evolve": "40",
+    "height": 0.5,
+    "weight": 11.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/140.png"
+  },
+  {
+    "number": 141,
+    "name": "Kabutops",
+    "type": "Rock/Water",
+    "evolve": "no evolution",
+    "height": 1.3,
+    "weight": 40.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/141.png"
+  },
+  {
+    "number": 142,
+    "name": "Aerodactyl",
+    "type": "Rock/Flying",
+    "evolve": "no evolution",
+    "height": 1.8,
+    "weight": 59,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/142.png"
+  },
+  {
+    "number": 143,
+    "name": "Snorlax",
+    "type": "Normal",
+    "evolve": "no evolution",
+    "height": 2.1,
+    "weight": 460,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/143.png"
+  },
+  {
+    "number": 144,
+    "name": "Articuno",
+    "type": "Ice/Flying",
+    "evolve": "no evolution",
+    "height": 1.7,
+    "weight": 55.4,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/144.png"
+  },
+  {
+    "number": 145,
+    "name": "Zapdos",
+    "type": "El/Flying",
+    "evolve": "no evolution",
+    "height": 1.6,
+    "weight": 52.6,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/145.png"
+  },
+  {
+    "number": 146,
+    "name": "Moltres",
+    "type": "Fire/Flying",
+    "evolve": "no evolution",
+    "height": 2,
+    "weight": 60,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/146.png"
+  },
+  {
+    "number": 147,
+    "name": "Dratini",
+    "type": "Dragon",
+    "evolve": "30",
+    "height": 1.8,
+    "weight": 3.3,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/147.png"
+  },
+  {
+    "number": 148,
+    "name": "Dragonair",
+    "type": "Dragon",
+    "evolve": 55,
+    "height": 4,
+    "weight": 16.5,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/148.png"
+  },
+  {
+    "number": 149,
+    "name": "Dragonite",
+    "type": "Dragon/Flying",
+    "evolve": "no evolution",
+    "height": 2.2,
+    "weight": 210,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/149.png"
+  },
+  {
+    "number": 150,
+    "name": "Mewtwo",
+    "type": "Psychic",
+    "evolve": "no evolution",
+    "height": 2,
+    "weight": 122,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/150.png"
+  },
+  {
+    "number": 151,
+    "name": "Mew",
+    "type": "Psychic",
+    "evolve": "no evolution",
+    "height": 0.4,
+    "weight": 4,
+    "Image": "http://media.pldh.net/pokemon/ken_sugimori/original/151.png"
+  }
+]
