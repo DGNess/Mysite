@@ -1,0 +1,79 @@
+﻿<html ng-app="PKMNApp">
+ <!--
+  File:  /~sconfrey/public_html/asm.html
+  91.461 Assignment:  Styling Your First Web Page With CSS
+  Shaun J. Confrey, UMass Lowell Computer Science, shaun_confrey@student.uml.edu
+  Copyright (c) 2014 by Shaun J. Confrey.  A place were Shaun will post his answers
+  to various GUI assignments.
+  updated by SJC on December 10, 2014 at 8:26 PM
+-->
+
+  <head>
+    <meta charset="utf-8">
+    <title>Gen 1 PokéDex</title>
+    <script src="angular.js"></script>
+    <!-- CSS for this app -->
+    <link type="text/css" rel="stylesheet" href="asm9.css"></link>
+    
+    <script>
+      // set up AngularJS module, note that name must be the same as that in the 
+      //ng-app attribute of the html tag above
+      var DexApp = angular.module('PKMNApp', []);
+      
+      // add business logic to the app controller
+      DexApp.controller('PKMNCtrl', function ($scope, $http){
+        // set a constant to the JSON file path
+        $http.get('151pkmn.json').success(function(data) {
+          // initialize an object in the model's scope
+          $scope.pokemon = data;
+        });
+        //Sets the initial sort field to be 'number'
+        $scope.sortField = 'number';
+        //Sets reverse to be false
+        $scope.reverse = false;
+      });
+    </script>
+  </head>
+  <!-- the main view, controlled by AngularJS -->
+  <body ng-controller="PKMNCtrl">
+   <!-- page head information -->
+    <div id="Title"> 
+      <h1>Generation 1 PokéDex</h1>
+      <h2>Pokémon Excelopedia</h2>
+    </div>
+    <!--The search bar for the application-->
+    <div id ="search_Dex">
+      Search PokéDex:<input ng-model="query" type="text"/>
+    </div>
+    <!-- the table controlled by the AngularJS controller -->
+    <table id="tblSubmissions">
+     <!-- the column heads -->
+      <thead>
+        <tr>
+          <th><a href="" ng-click="sortField = 'number'; reverse = !reverse">Dex Number</a></th>
+          <th>Image</th>
+          <th><a href="" ng-click="sortField ='name'; reverse = !reverse">Pokemon name</a></th>
+          <th><a href="" ng-click="sortField ='type'; reverse = !reverse">Pokemon Type</a></th>
+          <th><a href="" ng-click="sortField ='evolve'; reverse = !reverse">Evolution Level</a></th>
+          <th><a href="" ng-click="sortField ='height'; reverse = !reverse">Height<br>(Meters)</a></th>
+          <th><a href="" ng-click="sortField ='weight'; reverse = !reverse">Weight<br>(Kilograms)</a></th>
+        </tr>
+      </thead>
+      <!-- 
+        AngularJS template for each row of the table 
+        the ng-model attribute causes the data to be re-rendered when the jsonData changes
+      -->
+      <tbody>    
+        <tr ng-repeat="pokemon in pokemon | filter:query | orderBy:sortField:reverse">
+          <td>{{pokemon.number}}</td>
+          <td><img ng-src="{{pokemon.Image}}" width="100"></td>
+          <td>{{pokemon.name}}</td>
+          <td>{{pokemon.type}}</td>
+          <td>{{pokemon.evolve}}</td>
+          <td>{{pokemon.height}} M</td>
+          <td>{{pokemon.weight}} KG</td>      
+        </tr>
+      </tbody>  
+    </table>
+  </body>
+</html>
