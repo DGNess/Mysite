@@ -21,7 +21,7 @@
     <link rel="icon" type="image/png" href="../icons/pkic.png" sizes="16x16" />
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
     <!-- CSS for this app -->
-    <link type="text/css" rel="stylesheet" href="../CSS/asm9.css"></link>
+    <link type="text/css" rel="stylesheet" href="../CSS/asm9.css">
     
     <script>
       // set up AngularJS module, note that name must be the same as that in the 
@@ -74,7 +74,7 @@
       <tbody>    
         <tr ng-repeat="pokemon in pokemon | filter:query | orderBy:sortField:reverse">
           <td>{{pokemon.number}}</td>
-          <td><img ng-src="{{pokemon.Image}}" width="100"></td>
+          <td><img ng-src="{{pokemon.Image}}" alt="Picture of Pokemon" width="100"></td>
           <td>{{pokemon.name}}</td>
           <td>{{pokemon.type}}</td>
           <td>{{pokemon.evolve}}</td>
