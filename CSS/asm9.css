@@ -37,7 +37,7 @@ body, table {
 #search_Dex {
   padding: 3px;
   border: 4px solid black;
-  width: 115px ;
+  width: 160px ;
   height: 140px ;
   background-color: white;
   position: fixed;     /*Search does not move when scrolled*/
